@@ -1,0 +1,6 @@
+{
+  "DoubleclickMessage": "You have done a double click",
+  "RightclickMessage": "You have done a right click",
+  "SingleclickMessage": "You have done a dynamic click",
+  "SingleclickInnerText": "Double Click MeRight Click MeClick Me"
+}

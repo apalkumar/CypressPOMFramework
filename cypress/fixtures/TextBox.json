@@ -1,0 +1,8 @@
+{
+  "FullName": "Anil",
+  "Email": "Anil@Anil.com",
+  "Address": "Bangalore, Bangalorehalli",
+  "NameField":"name",
+  "currentAddressSaved":"currentAddress",
+  "permanentAddressSaved":"permanentAddress"
+}
