@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-31T11:03:21.720Z",
+    "end": "2024-12-31T11:03:44.958Z",
+    "duration": 23238,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6649a89a-f7a3-4711-ab32-85ba312299cd",
+      "title": "",
+      "fullFile": "cypress\\e2e\\tests\\alertValidationTest.cy.js",
+      "file": "cypress\\e2e\\tests\\alertValidationTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "68e10328-22f3-4000-8925-8d082f359c91",
+          "title": "Validation for differnt alerts",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case for validation of different alerts",
+              "fullTitle": "Validation for differnt alerts test case for validation of different alerts",
+              "timedOut": null,
+              "duration": 18979,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "launchinpage8.launchDemosite();\nlaunchinpage8.openWebForms(data.LHSAlert);\naE8.openSection(data.SectionAlert);\nal8.alertValidationforClickMeButton(Alertdata.ClickMeFirstButtonText);\nal8.alertValidationforConfirmClickMeButton(Alertdata.ClickMeSecondButtonText, Alertdata.ClickMeSecondButtonTextOne);\nal8.alertValidationforPromptClickMeButton(Alertdata.ClickMeFourthButtonText, Alertdata.ClickMeFourthButtonTextOne);",
+              "err": {},
+              "uuid": "9c68cfd6-61f6-4149-a825-2c884f02501e",
+              "parentUUID": "68e10328-22f3-4000-8925-8d082f359c91",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9c68cfd6-61f6-4149-a825-2c884f02501e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 18979,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "timestamp": "longDate"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

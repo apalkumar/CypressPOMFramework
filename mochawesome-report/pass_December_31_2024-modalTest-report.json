@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-31T11:10:28.897Z",
+    "end": "2024-12-31T11:10:46.667Z",
+    "duration": 17770,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ec2c83d5-65c9-42a7-ba0a-b2137e486563",
+      "title": "",
+      "fullFile": "cypress\\e2e\\tests\\modalTest.cy.js",
+      "file": "cypress\\e2e\\tests\\modalTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "76d704aa-1eff-450c-8e22-9cc44b4a7e2e",
+          "title": "Validation for differnt Modal",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case for validation of different Modal",
+              "fullTitle": "Validation for differnt Modal test case for validation of different Modal",
+              "timedOut": null,
+              "duration": 15190,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "launchinpage11.launchDemosite();\nlaunchinpage11.openWebForms(ModalValidation.LHSAlert);\naE11.openSection(ModalValidation.SectionModal);\nmo.validatesmallModal(ModalTextValidation.smallModal);\nmo.validatelargeModal(ModalTextValidation.LargeModal);",
+              "err": {},
+              "uuid": "2373eba5-d0ab-4026-ab01-6b1a4b879f26",
+              "parentUUID": "76d704aa-1eff-450c-8e22-9cc44b4a7e2e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2373eba5-d0ab-4026-ab01-6b1a4b879f26"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15190,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "timestamp": "longDate"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

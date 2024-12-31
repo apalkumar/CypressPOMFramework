@@ -17,6 +17,7 @@
 import './commands'
 
 import "cypress-real-events";
+import 'cypress-mochawesome-reporter/register';
 
 //Hide XHR Request
 const app = window.top;

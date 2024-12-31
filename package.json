@@ -4,15 +4,19 @@
   "description": "To finalize the framework",
   "main": "index.js",
   "scripts": {
-    "test:button1test1":"npx cypress run --browser chrome --spec cypress\\e2e\\tests\\buttontest.cy.js"
+    "test:button1test1": "npx cypress run --browser chrome --spec cypress\\e2e\\tests\\buttontest.cy.js",
+    "test:button1test2": "npx cypress run --browser chrome --spec cypress\\e2e\\tests\\linkstest.cy.js"
   },
   "author": "Anil Kumar Pal",
   "license": "ISC",
   "dependencies": {
+    "cypress": "^13.17.0",
     "cypress-real-events": "^1.13.0"
   },
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.5",
-    "cypress-iframe": "^1.0.1"
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome": "^7.1.3"
   }
 }

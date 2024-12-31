@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-31T11:15:16.201Z",
+    "end": "2024-12-31T11:15:35.328Z",
+    "duration": 19127,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b19cad70-3825-42e4-96ec-de0ce57798f0",
+      "title": "",
+      "fullFile": "cypress\\e2e\\tests\\verifytotalelementstest.cy.js",
+      "file": "cypress\\e2e\\tests\\verifytotalelementstest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c4c2b758-754b-4044-bfd3-5cdfa6572c0b",
+          "title": "Validate that all elements are loaded",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate all elements on a Page",
+              "fullTitle": "Validate that all elements are loaded Validate all elements on a Page",
+              "timedOut": null,
+              "duration": 16334,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.on('uncaught:exception', (err, runnable) => {\n  return false;\n});\nlaunchinpage1.launchDemosite();\nlaunchinpage1.openWebForms(totalElementsValidation.LHSElements);\naE.verifyTotalLHSelement();\naE.openSection(totalElementsValidation.SectionTextBox);\ntb.submitAddress(TextBoxValidation.FullName, TextBoxValidation.Email, TextBoxValidation.Address);\ntb.verifyaddessSaved();",
+              "err": {},
+              "uuid": "dbc76beb-c094-4825-a2e0-597b2cfe1682",
+              "parentUUID": "c4c2b758-754b-4044-bfd3-5cdfa6572c0b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dbc76beb-c094-4825-a2e0-597b2cfe1682"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16334,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "timestamp": "longDate"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

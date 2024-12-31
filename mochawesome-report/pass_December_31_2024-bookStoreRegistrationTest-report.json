@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-31T11:04:34.187Z",
+    "end": "2024-12-31T11:04:57.295Z",
+    "duration": 23108,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "392d5646-4c35-4591-adaa-5a6000f7d6b9",
+      "title": "",
+      "fullFile": "cypress\\e2e\\tests\\bookStoreRegistrationTest.cy.js",
+      "file": "cypress\\e2e\\tests\\bookStoreRegistrationTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5761de3d-db11-45ae-84db-cce532fa3fcd",
+          "title": "Book Store Registration",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case for Book Store Registration",
+              "fullTitle": "Book Store Registration test case for Book Store Registration",
+              "timedOut": null,
+              "duration": 19035,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Cypress.on('uncaught:exception', (err, runnable) => {\n  // handle the error\n  console.error(err);\n});\nlaunchinpage8.launchDemosite();\nlaunchinpage8.openWebForms(bookStoreRegistrationValidation.LHSBook);\naE8.openSection(bookStoreRegistrationValidation.SectionBookStore);\nbsl1.clickonLoginbutton();\nbsr.clickonNewuserbutton();\nbsr.enterFirstName(bookStoreRegistrationText.FirstName);\nbsr.enterlastName(bookStoreRegistrationText.LastName);\nbsr.enterUserName(bookStoreRegistrationValidation.userName);\nbsr.enterPassword(bookStoreRegistrationValidation.passWord);\n// bsr.clickonRecaptchabutton();\nbsr.clickonRegisterbutton();",
+              "err": {},
+              "uuid": "9306539c-bd77-4571-9781-21fca7bbf399",
+              "parentUUID": "5761de3d-db11-45ae-84db-cce532fa3fcd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9306539c-bd77-4571-9781-21fca7bbf399"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 19035,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "timestamp": "longDate"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

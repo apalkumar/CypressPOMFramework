@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-31T11:10:06.832Z",
+    "end": "2024-12-31T11:10:26.314Z",
+    "duration": 19482,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "38cf9bb2-765e-4d09-89d8-0f20142ac42c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\tests\\menuTest.cy.js",
+      "file": "cypress\\e2e\\tests\\menuTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6b6cae56-efda-4961-a5e8-6fa80aa32fbe",
+          "title": "Validation for Menu",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case for validation of Menu",
+              "fullTitle": "Validation for Menu test case for validation of Menu",
+              "timedOut": null,
+              "duration": 16852,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Cypress.on('uncaught:exception', (err, runnable) => {\n  return false;\n});\nlaunchinpage17.launchDemosite();\nlaunchinpage17.openWebForms(MenuValidation.LHSWidget);\naE17.openSection(MenuValidation.SectionMenu);\nmu.verifyMenuItems();",
+              "err": {},
+              "uuid": "09f9b395-4192-4315-aa6c-d183bec1fb4e",
+              "parentUUID": "6b6cae56-efda-4961-a5e8-6fa80aa32fbe",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "09f9b395-4192-4315-aa6c-d183bec1fb4e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16852,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "timestamp": "longDate"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

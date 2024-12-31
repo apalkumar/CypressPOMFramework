@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-31T11:11:08.862Z",
+    "end": "2024-12-31T11:11:44.637Z",
+    "duration": 35775,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b03d9ce1-68ef-4eca-870c-497fcee9102a",
+      "title": "",
+      "fullFile": "cypress\\e2e\\tests\\openFormTest.cy.js",
+      "file": "cypress\\e2e\\tests\\openFormTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0f839b63-f6ef-4991-a9c2-0597ce0bf68b",
+          "title": "Open Form and Fill the Form",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Fill up the Form1",
+              "fullTitle": "Open Form and Fill the Form Fill up the Form1",
+              "timedOut": null,
+              "duration": 33181,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "launchinpage7.launchDemosite();\nlaunchinpage7.openWebForms(OpenFormValidation.LHSForms);\naE7.openSection(OpenFormValidation.SectionPracticeForm);\nof1.enterFirstName(PracticeFormValidation.FirstName);\nof1.enterLastName(PracticeFormValidation.LastName);\nof1.enterEmailId(PracticeFormValidation.Email);\nof1.selectMaleRadioButton();\nof1.enterMobileNumber(PracticeFormValidation.MobileNumber);\nof1.selectHobby(PracticeFormValidation.HobbeySports);\nof1.enterCurrentAddess(PracticeFormValidation.Address);\n// of1.enterDOB(PracticeFormValidation.DOB);\nof1.enterSubject(PracticeFormValidation.Subject);\n// of1.selectState(PracticeFormValidation.State);\nof1.submitForm();\nof1.validateTable();\nof1.closeModal();",
+              "err": {},
+              "uuid": "847365ec-d420-4686-8a08-a66a0114ea03",
+              "parentUUID": "0f839b63-f6ef-4991-a9c2-0597ce0bf68b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "847365ec-d420-4686-8a08-a66a0114ea03"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 33181,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "timestamp": "longDate"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

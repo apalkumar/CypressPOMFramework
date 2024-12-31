@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-31T10:14:10.336Z",
+    "end": "2024-12-31T10:14:28.950Z",
+    "duration": 18614,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3ba188fc-ff64-474d-b4d1-72732bd15460",
+      "title": "",
+      "fullFile": "cypress\\e2e\\tests\\bookStoreLoginTest.cy.js",
+      "file": "cypress\\e2e\\tests\\bookStoreLoginTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "10a8f92a-7052-4344-9585-18717b7c4131",
+          "title": "Book Store Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case for Book Store Login",
+              "fullTitle": "Book Store Login test case for Book Store Login",
+              "timedOut": null,
+              "duration": 15508,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Cypress.on('uncaught:exception', (err, runnable) => {\n  // handle the error\n  console.error(err);\n});\nlaunchinpage8.launchDemosite();\nlaunchinpage8.openWebForms(bookStoreLoginValidation.LHSBook);\naE8.openSection(bookStoreLoginValidation.BookStoreLogin);\nbsl.enterUsername(bookStoreLoginValidation.userName);\nbsl.enterPassword(bookStoreLoginValidation.passWord);\n// bsl.clickonLoginbutton();",
+              "err": {},
+              "uuid": "8e83ca54-ea61-4369-a851-190ce2b5c2ad",
+              "parentUUID": "10a8f92a-7052-4344-9585-18717b7c4131",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8e83ca54-ea61-4369-a851-190ce2b5c2ad"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15508,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

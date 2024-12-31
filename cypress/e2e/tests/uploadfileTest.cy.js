@@ -8,7 +8,7 @@ const uploadFile = new upload();
 
 const uploadFileValidation = require('../../fixtures/example.json')
 
-describe("Upload File Scenariosn", function () {
+describe("Upload File Scenarios", function () {
     it("Upload File Test Case", function () {
         launchinpage6.launchDemosite();
         launchinpage6.openWebForms(uploadFileValidation.LHSElements);

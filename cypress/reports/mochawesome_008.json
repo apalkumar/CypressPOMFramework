@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-31T10:16:17.770Z",
+    "end": "2024-12-31T10:16:34.544Z",
+    "duration": 16774,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0786c2aa-abca-4021-8c9a-6657dfed1026",
+      "title": "",
+      "fullFile": "cypress\\e2e\\tests\\frameworkValidationtextTest.cy.js",
+      "file": "cypress\\e2e\\tests\\frameworkValidationtextTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "87f2016c-207b-4cb5-a315-984b71ba39c2",
+          "title": "this is for the frame validation",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "this test case is for frame validation",
+              "fullTitle": "this is for the frame validation this test case is for frame validation",
+              "timedOut": null,
+              "duration": 14228,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "launchinpage9.launchDemosite();\nlaunchinpage9.openWebForms(FrameValidation.LHSAlert);\naE9.openSection(FrameValidation.SectionFrame);\nfr.frametoknow();",
+              "err": {},
+              "uuid": "ee616d33-22cc-47bf-8f13-848f4e011885",
+              "parentUUID": "87f2016c-207b-4cb5-a315-984b71ba39c2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ee616d33-22cc-47bf-8f13-848f4e011885"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14228,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

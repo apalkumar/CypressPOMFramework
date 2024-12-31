@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-31T11:14:37.320Z",
+    "end": "2024-12-31T11:14:54.145Z",
+    "duration": 16825,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "626601e3-8b64-4412-bd6b-fa198c683030",
+      "title": "",
+      "fullFile": "cypress\\e2e\\tests\\toolTipTest.cy.js",
+      "file": "cypress\\e2e\\tests\\toolTipTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "877a2c95-93e8-499f-a4a0-ac294d0955f1",
+          "title": "Validation for Tool Tips",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case for validation of Tool Tips",
+              "fullTitle": "Validation for Tool Tips test case for validation of Tool Tips",
+              "timedOut": null,
+              "duration": 14268,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Cypress.on('uncaught:exception', (err, runnable) => {\n  return false;\n});\nlet textFromdiv = \"Widgets\";\nlaunchinpage16.launchDemosite();\nlaunchinpage16.openWebForms(toolTipValidation.LHSWidget);\naE16.openSection(toolTipValidation.SectionToolTip);\ntt.HoverandValidateButtonToolTip();\ntt.HoverandValidateTextToolTip();",
+              "err": {},
+              "uuid": "1c86ba93-97f7-4920-8390-e943726039c7",
+              "parentUUID": "877a2c95-93e8-499f-a4a0-ac294d0955f1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1c86ba93-97f7-4920-8390-e943726039c7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14268,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "timestamp": "longDate"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
