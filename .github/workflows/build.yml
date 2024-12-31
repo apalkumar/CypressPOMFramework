@@ -1,0 +1,19 @@
+name: End-To-End Tests  # Name of the workflow
+on: [push]  # Event that triggers the workflow
+jobs:
+    cypress-run:
+        runs-on: ubuntu-latest  # Operating system to run the job on
+        steps:
+            - uses: actions/checkout@v4  # Action to checkout the repository
+            # - name: Install Node.js  # Name of the step
+            - name: checkout  # Name of the step
+            #   uses: actions/setup-node@v2  # Action to set up Node.js
+              uses: actions/checkout@v4 # Action to set up Node.js
+            #   with:
+                #   node-version: '14'  # Version of Node.js to use
+            # - name: Install dependencies  # Name of the step
+            #   run: npm install  # Command to install dependencies
+            - name: Run Cypress tests  # Name of the step
+            #   run: npm run cypress:run  # Command to run Cypress tests
+            #   uses: actions/checkout@v4 # Action to set up Node.js
+              uses: cypress-io/github-action@v6 # Action to set up Node.js
