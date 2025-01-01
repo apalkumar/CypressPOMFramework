@@ -1,0 +1,13 @@
+name: End-To-End Tests though Scripts # Name of the workflow
+on: [push]  # Event that triggers the workflow
+jobs:
+    cypress-run:
+        runs-on: ubuntu-latest  # Operating system to run the job on,  and this is i am using
+        steps:
+            - uses: actions/checkout@v4  # Action to checkout the repository, and this is i am using
+            - name: checkout  # Name of the step,  and this is i am using
+              uses: actions/checkout@v4 # Action to set up Node.js, and this is i am using
+            - name: Run Cypress tests  # Name of the step and this is i am using
+              uses: cypress-io/github-action@v6 # Action to set up Node.js,  and this is i am using
+              with:
+                command: npm run test:button1test1  # Prefix for the command to run the tests
