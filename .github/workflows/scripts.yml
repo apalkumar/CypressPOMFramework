@@ -1,13 +1,19 @@
-name: End-To-End Tests though Scripts # Name of the workflow
+name: Using Scripts.yml End-To-End Tests  # Name of the workflow
 on: [push]  # Event that triggers the workflow
 jobs:
     cypress-run:
         runs-on: ubuntu-latest  # Operating system to run the job on,  and this is i am using
         steps:
             - uses: actions/checkout@v4  # Action to checkout the repository, and this is i am using
+            # - name: Install Node.js  # Name of the step
             - name: checkout  # Name of the step,  and this is i am using
+            #   uses: actions/setup-node@v2  # Action to set up Node.js
               uses: actions/checkout@v4 # Action to set up Node.js, and this is i am using
+            - name: Run tests
+              run: npm run test:button1test1
+            # - name: Install dependencies  # Name of the step
+            #   run: npm install  # Command to install dependencies
             - name: Run Cypress tests  # Name of the step and this is i am using
+            #   run: npm run cypress:run  # Command to run Cypress tests
+            #   uses: actions/checkout@v4 # Action to set up Node.js
               uses: cypress-io/github-action@v6 # Action to set up Node.js,  and this is i am using
-              with:
-                command: npm run test:button1test1  # Prefix for the command to run the tests
