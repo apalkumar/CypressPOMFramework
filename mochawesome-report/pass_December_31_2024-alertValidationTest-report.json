@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:03:21.720Z",
-    "end": "2024-12-31T11:03:44.958Z",
-    "duration": 23238,
+    "start": "2024-12-31T18:16:18.684Z",
+    "end": "2024-12-31T18:16:41.982Z",
+    "duration": 23298,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "6649a89a-f7a3-4711-ab32-85ba312299cd",
+      "uuid": "0d25b2ca-2b93-4af2-85bb-a72632901b62",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\alertValidationTest.cy.js",
       "file": "cypress\\e2e\\tests\\alertValidationTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "68e10328-22f3-4000-8925-8d082f359c91",
+          "uuid": "0aecaff7-bf79-4627-8e00-36032230294a",
           "title": "Validation for differnt alerts",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case for validation of different alerts",
               "fullTitle": "Validation for differnt alerts test case for validation of different alerts",
               "timedOut": null,
-              "duration": 18979,
+              "duration": 19444,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "launchinpage8.launchDemosite();\nlaunchinpage8.openWebForms(data.LHSAlert);\naE8.openSection(data.SectionAlert);\nal8.alertValidationforClickMeButton(Alertdata.ClickMeFirstButtonText);\nal8.alertValidationforConfirmClickMeButton(Alertdata.ClickMeSecondButtonText, Alertdata.ClickMeSecondButtonTextOne);\nal8.alertValidationforPromptClickMeButton(Alertdata.ClickMeFourthButtonText, Alertdata.ClickMeFourthButtonTextOne);",
               "err": {},
-              "uuid": "9c68cfd6-61f6-4149-a825-2c884f02501e",
-              "parentUUID": "68e10328-22f3-4000-8925-8d082f359c91",
+              "uuid": "29a91f29-1f55-4f29-a211-7ab620b4beb2",
+              "parentUUID": "0aecaff7-bf79-4627-8e00-36032230294a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "9c68cfd6-61f6-4149-a825-2c884f02501e"
+            "29a91f29-1f55-4f29-a211-7ab620b4beb2"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 18979,
+          "duration": 19444,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

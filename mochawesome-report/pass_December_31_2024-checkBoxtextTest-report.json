@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:05:48.529Z",
-    "end": "2024-12-31T11:06:07.205Z",
-    "duration": 18676,
+    "start": "2024-12-31T18:18:32.470Z",
+    "end": "2024-12-31T18:18:50.208Z",
+    "duration": 17738,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "24b1bfd1-185c-40a4-88a9-3f215f972391",
+      "uuid": "51b39850-fbfb-4a18-870a-4309853f938a",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\checkBoxtextTest.cy.js",
       "file": "cypress\\e2e\\tests\\checkBoxtextTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "b6273342-5332-4836-b061-561bc7aa4085",
+          "uuid": "d73bf0d7-77ed-4bda-ac8d-33d0ef0e0b83",
           "title": "this is for checkbox",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "this is for checkbox validation",
               "fullTitle": "this is for checkbox this is for checkbox validation",
               "timedOut": null,
-              "duration": 15180,
+              "duration": 14724,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const allText = [\"You have selected :\", \"home\", \"desktop\", \"notes\", \"commands\", \"documents\", \"workspace\", \"react\", \"angular\", \"veu\", \"office\", \"public\", \"private\", \"classified\", \"general\", \"downloads\", \"wordFile\", \"excelFile\"];\nlaunchinpage2.launchDemosite();\nlaunchinpage2.openWebForms(Buttondata.LHSElements);\naE1.verifyTotalLHSelement();\naE1.openSection(Buttondata.LinkCheckBox);\nvc.checkboxClick();\nvc.validateallselectedText(allText);",
               "err": {},
-              "uuid": "68d731df-79c3-4389-bec7-28f3c4f991c7",
-              "parentUUID": "b6273342-5332-4836-b061-561bc7aa4085",
+              "uuid": "cd316645-7c78-4fbb-a017-3ad90815b8e0",
+              "parentUUID": "d73bf0d7-77ed-4bda-ac8d-33d0ef0e0b83",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "68d731df-79c3-4389-bec7-28f3c4f991c7"
+            "cd316645-7c78-4fbb-a017-3ad90815b8e0"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 15180,
+          "duration": 14724,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

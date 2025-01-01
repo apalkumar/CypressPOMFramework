@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:13:57.176Z",
-    "end": "2024-12-31T11:14:14.570Z",
-    "duration": 17394,
+    "start": "2024-12-31T18:26:04.975Z",
+    "end": "2024-12-31T18:26:22.442Z",
+    "duration": 17467,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "05033011-6467-489b-8e11-dce16537946b",
+      "uuid": "33e0b5a6-1b16-4eb5-9b03-c8661ebe4f56",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\slidertest.cy.js",
       "file": "cypress\\e2e\\tests\\slidertest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e6ec1f1a-dd13-4b8c-91e0-a9433ea58c63",
+          "uuid": "5c0ded20-5c65-4f1b-8ae7-737adc4fdf73",
           "title": "Validation for Slider",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case for validation of Slider",
               "fullTitle": "Validation for Slider test case for validation of Slider",
               "timedOut": null,
-              "duration": 14669,
+              "duration": 14596,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "launchinpage13.launchDemosite();\nlaunchinpage13.openWebForms(SliderValidation.LHSWidget);\naE13.openSection(SliderValidation.SectionSlider);\nsl.selectValue();",
               "err": {},
-              "uuid": "c8e75d36-10c4-4501-a239-2d292e4a5ef4",
-              "parentUUID": "e6ec1f1a-dd13-4b8c-91e0-a9433ea58c63",
+              "uuid": "1fbfd40f-2c7a-4c00-8ebb-5282c33f2e26",
+              "parentUUID": "5c0ded20-5c65-4f1b-8ae7-737adc4fdf73",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c8e75d36-10c4-4501-a239-2d292e4a5ef4"
+            "1fbfd40f-2c7a-4c00-8ebb-5282c33f2e26"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 14669,
+          "duration": 14596,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

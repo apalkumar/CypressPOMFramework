@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:13:13.562Z",
-    "end": "2024-12-31T11:13:32.242Z",
-    "duration": 18680,
+    "start": "2024-12-31T18:25:22.969Z",
+    "end": "2024-12-31T18:25:41.223Z",
+    "duration": 18254,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "12d0e04c-6fe5-4f3c-b98f-901741ea9a2e",
+      "uuid": "064c8929-1066-4825-a8f3-82a21c53ec50",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\radioButtontest.cy.js",
       "file": "cypress\\e2e\\tests\\radioButtontest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c3cb8e2d-e143-4181-90b6-796820df49bb",
+          "uuid": "90c4b502-6bd1-494f-adb3-8af6ac971eef",
           "title": "Validate the Radio button selection",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Radio button validation selection",
               "fullTitle": "Validate the Radio button selection Radio button validation selection",
               "timedOut": null,
-              "duration": 15833,
+              "duration": 15540,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "launchinpage2.launchDemosite();\nlaunchinpage2.openWebForms(RadioButtonValidation.LHSElements);\naE2.openSection(RadioButtonValidation.SectionRadioButton);\nvr.selectRadiobutton(RadioButtonSelection.selection);",
               "err": {},
-              "uuid": "3ad8e0b2-db97-4034-ad28-ee89220f4b8e",
-              "parentUUID": "c3cb8e2d-e143-4181-90b6-796820df49bb",
+              "uuid": "bf333b96-250c-447e-9f25-5701cd21780f",
+              "parentUUID": "90c4b502-6bd1-494f-adb3-8af6ac971eef",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "3ad8e0b2-db97-4034-ad28-ee89220f4b8e"
+            "bf333b96-250c-447e-9f25-5701cd21780f"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 15833,
+          "duration": 15540,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

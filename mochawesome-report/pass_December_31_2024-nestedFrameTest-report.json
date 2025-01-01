@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:10:49.242Z",
-    "end": "2024-12-31T11:11:06.062Z",
-    "duration": 16820,
+    "start": "2024-12-31T18:23:26.040Z",
+    "end": "2024-12-31T18:23:44.748Z",
+    "duration": 18708,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "1560c804-0933-43a6-8989-1b13d3cd7ce4",
+      "uuid": "1c9640df-8abb-49cd-9c49-7406912f4c1c",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\nestedFrameTest.cy.js",
       "file": "cypress\\e2e\\tests\\nestedFrameTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "3eeb63e9-0086-40bd-b2ad-e6a62ae0d0a1",
+          "uuid": "a7715049-8b4f-48a2-a86a-559a2f30c33c",
           "title": "this is for the Nested Frame",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "this test case is for Nested frame validation",
               "fullTitle": "this is for the Nested Frame this test case is for Nested frame validation",
               "timedOut": null,
-              "duration": 14323,
+              "duration": 15555,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "launchinpage10.launchDemosite();\nlaunchinpage10.openWebForms(FrameValidation1.LHSAlert);\naE10.openSection(FrameValidation1.SectionNestedFrame);\nnfr.nestedFrames();",
               "err": {},
-              "uuid": "bb05859e-bf59-439c-ac2f-1cc4bd72dc47",
-              "parentUUID": "3eeb63e9-0086-40bd-b2ad-e6a62ae0d0a1",
+              "uuid": "44ee0193-0348-44d7-bd8d-6985be119cde",
+              "parentUUID": "a7715049-8b4f-48a2-a86a-559a2f30c33c",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "bb05859e-bf59-439c-ac2f-1cc4bd72dc47"
+            "44ee0193-0348-44d7-bd8d-6985be119cde"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 14323,
+          "duration": 15555,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

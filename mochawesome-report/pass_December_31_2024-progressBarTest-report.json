@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:11:47.209Z",
-    "end": "2024-12-31T11:13:11.073Z",
-    "duration": 83864,
+    "start": "2024-12-31T18:24:10.860Z",
+    "end": "2024-12-31T18:25:20.356Z",
+    "duration": 69496,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "78e1bf41-0f49-49ea-9ff6-73bc44b7ea57",
+      "uuid": "696f12a1-7c1a-4949-9a07-0046a8ef90f4",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\progressBarTest.cy.js",
       "file": "cypress\\e2e\\tests\\progressBarTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c4ff381b-add8-4c07-84f4-abd97ffb97dc",
+          "uuid": "2218e4e4-2c02-4ec7-8a9c-70fc1e95dd37",
           "title": "Validation for Progress Bar",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case for validation of Progress Bar",
               "fullTitle": "Validation for Progress Bar test case for validation of Progress Bar",
               "timedOut": null,
-              "duration": 81322,
+              "duration": 66415,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "Cypress.on('uncaught:exception', (err, runnable) => {\n  return false;\n});\nlaunchinpage14.launchDemosite();\nlaunchinpage14.openWebForms(ProgressBarValidation.LHSWidget);\naE13.openSection(ProgressBarValidation.SectionProgressBar);\npb.measureProgressbar();\npb.checkResetButton();",
               "err": {},
-              "uuid": "acca1098-345d-4f11-b840-fb231cc0029b",
-              "parentUUID": "c4ff381b-add8-4c07-84f4-abd97ffb97dc",
+              "uuid": "893fa93b-6280-4939-a8b6-cdc6cbe5cabe",
+              "parentUUID": "2218e4e4-2c02-4ec7-8a9c-70fc1e95dd37",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "acca1098-345d-4f11-b840-fb231cc0029b"
+            "893fa93b-6280-4939-a8b6-cdc6cbe5cabe"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 81322,
+          "duration": 66415,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:06:30.890Z",
-    "end": "2024-12-31T11:06:48.898Z",
-    "duration": 18008,
+    "start": "2024-12-31T18:19:15.135Z",
+    "end": "2024-12-31T18:19:33.063Z",
+    "duration": 17928,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "012cb585-6c14-41b8-b095-0f07fa4dc1e9",
+      "uuid": "338612bd-9de2-4e99-be29-efda5d5cc1c3",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\frameworkValidationtextTest.cy.js",
       "file": "cypress\\e2e\\tests\\frameworkValidationtextTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0696c0ac-29f1-4f18-8665-53e4d64f6b56",
+          "uuid": "9f289f3a-d11a-4760-a60a-404ced6863f6",
           "title": "this is for the frame validation",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "this test case is for frame validation",
               "fullTitle": "this is for the frame validation this test case is for frame validation",
               "timedOut": null,
-              "duration": 15294,
+              "duration": 15156,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "launchinpage9.launchDemosite();\nlaunchinpage9.openWebForms(FrameValidation.LHSAlert);\naE9.openSection(FrameValidation.SectionFrame);\nfr.frametoknow();",
               "err": {},
-              "uuid": "6dd08b09-7f0c-4e9d-a339-a11155af77dc",
-              "parentUUID": "0696c0ac-29f1-4f18-8665-53e4d64f6b56",
+              "uuid": "9fc17006-554f-4c00-8485-c41cab7e5b23",
+              "parentUUID": "9f289f3a-d11a-4760-a60a-404ced6863f6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6dd08b09-7f0c-4e9d-a339-a11155af77dc"
+            "9fc17006-554f-4c00-8485-c41cab7e5b23"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 15294,
+          "duration": 15156,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

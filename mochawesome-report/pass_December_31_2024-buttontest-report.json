@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:05:26.518Z",
-    "end": "2024-12-31T11:05:45.307Z",
-    "duration": 18789,
+    "start": "2024-12-31T18:18:11.718Z",
+    "end": "2024-12-31T18:18:29.758Z",
+    "duration": 18040,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2171a113-bf00-49c5-999e-230b58ce30d5",
+      "uuid": "b67a651d-5a1a-49e0-8677-289bba4cc02d",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\buttontest.cy.js",
       "file": "cypress\\e2e\\tests\\buttontest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "bc4a670d-5fa1-4082-8055-faa7c5d305cb",
+          "uuid": "ce72ac64-d60e-4cca-9c43-2b39d91cc400",
           "title": "Rabio Button",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Validation of Radio button",
               "fullTitle": "Rabio Button Validation of Radio button",
               "timedOut": null,
-              "duration": 15813,
+              "duration": 15346,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "launchinpage3.launchDemosite();\nlaunchinpage3.openWebForms(Buttondata.LHSElements);\naE3.openSection(Buttondata.LinkButton);\nbe1.singleClick(ButtonTextdata.SingleclickMessage, ButtonTextdata.SingleclickInnerText);\nbe1.doubleClick(ButtonTextdata.DoubleclickMessage);\nbe1.rightClick(ButtonTextdata.RightclickMessage);",
               "err": {},
-              "uuid": "02c4ac23-c2a9-4c7e-9a37-240a92aba9ee",
-              "parentUUID": "bc4a670d-5fa1-4082-8055-faa7c5d305cb",
+              "uuid": "452e432c-7fab-4557-9aae-336029cdafc6",
+              "parentUUID": "ce72ac64-d60e-4cca-9c43-2b39d91cc400",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "02c4ac23-c2a9-4c7e-9a37-240a92aba9ee"
+            "452e432c-7fab-4557-9aae-336029cdafc6"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 15813,
+          "duration": 15346,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

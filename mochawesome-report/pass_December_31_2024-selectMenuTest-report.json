@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:13:34.958Z",
-    "end": "2024-12-31T11:13:54.429Z",
-    "duration": 19471,
+    "start": "2024-12-31T18:25:43.500Z",
+    "end": "2024-12-31T18:26:02.629Z",
+    "duration": 19129,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "a7e8afd4-be34-49f3-ad7c-2bec32e95c6b",
+      "uuid": "2e9fbcdf-eefd-488e-a075-09b8bfe0707d",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\selectMenuTest.cy.js",
       "file": "cypress\\e2e\\tests\\selectMenuTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "38832308-fc8a-4f5c-b63b-fa6e9154f2c1",
+          "uuid": "6c7b67cd-6352-4677-8258-4869a51caeab",
           "title": "Validation for Select Menu",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case for validation of Select Menu",
               "fullTitle": "Validation for Select Menu test case for validation of Select Menu",
               "timedOut": null,
-              "duration": 16447,
+              "duration": 16483,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "Cypress.on('uncaught:exception', (err, runnable) => {\n  return false;\n});\n// let textFromdiv = \"Widgets\";\nlaunchinpage19.launchDemosite();\n// launchinpage19.openWebForms(textFromdiv);\nlaunchinpage19.openWebForms(SelectMenuValidation.LHSWidget);\n// aE19.OpenSelectMenuSection();\naE19.openSection(SelectMenuValidation.SectionSelectMenu);\nsm.selectOptionfromValueDropdown(DropdownValidation.SelectValue1, DropdownValidation.SelectValue2, DropdownValidation.color, DropdownValidation.multiSelect);",
               "err": {},
-              "uuid": "ce6b7a50-1cd7-4070-9cce-7e61f550adb3",
-              "parentUUID": "38832308-fc8a-4f5c-b63b-fa6e9154f2c1",
+              "uuid": "85558d14-a762-4881-985c-5446f25d0870",
+              "parentUUID": "6c7b67cd-6352-4677-8258-4869a51caeab",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ce6b7a50-1cd7-4070-9cce-7e61f550adb3"
+            "85558d14-a762-4881-985c-5446f25d0870"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 16447,
+          "duration": 16483,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

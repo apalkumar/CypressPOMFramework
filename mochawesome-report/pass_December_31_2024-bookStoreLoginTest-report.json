@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:04:09.906Z",
-    "end": "2024-12-31T11:04:30.206Z",
-    "duration": 20300,
+    "start": "2024-12-31T18:17:06.802Z",
+    "end": "2024-12-31T18:17:24.662Z",
+    "duration": 17860,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "8acb6325-0eb8-4c34-809a-36fd2e0d3546",
+      "uuid": "1fb919d6-994d-4093-94a6-fbb27ba4a3ae",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\bookStoreLoginTest.cy.js",
       "file": "cypress\\e2e\\tests\\bookStoreLoginTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6dcc94b2-b0a0-4650-af12-1b4b108501e5",
+          "uuid": "c0261a8a-8d1a-40b8-af09-d439644cae91",
           "title": "Book Store Login",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case for Book Store Login",
               "fullTitle": "Book Store Login test case for Book Store Login",
               "timedOut": null,
-              "duration": 16864,
+              "duration": 15028,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "Cypress.on('uncaught:exception', (err, runnable) => {\n  // handle the error\n  console.error(err);\n});\nlaunchinpage8.launchDemosite();\nlaunchinpage8.openWebForms(bookStoreLoginValidation.LHSBook);\naE8.openSection(bookStoreLoginValidation.BookStoreLogin);\nbsl.enterUsername(bookStoreLoginValidation.userName);\nbsl.enterPassword(bookStoreLoginValidation.passWord);\n// bsl.clickonLoginbutton();",
               "err": {},
-              "uuid": "92eefd65-7497-4175-bd6c-06cffdff0871",
-              "parentUUID": "6dcc94b2-b0a0-4650-af12-1b4b108501e5",
+              "uuid": "8c02a099-0aff-4073-800b-d2fbe8c02b9e",
+              "parentUUID": "c0261a8a-8d1a-40b8-af09-d439644cae91",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "92eefd65-7497-4175-bd6c-06cffdff0871"
+            "8c02a099-0aff-4073-800b-d2fbe8c02b9e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 16864,
+          "duration": 15028,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

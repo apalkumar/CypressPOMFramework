@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:10:06.832Z",
-    "end": "2024-12-31T11:10:26.314Z",
-    "duration": 19482,
+    "start": "2024-12-31T18:22:44.626Z",
+    "end": "2024-12-31T18:23:02.216Z",
+    "duration": 17590,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "38cf9bb2-765e-4d09-89d8-0f20142ac42c",
+      "uuid": "85aba195-3570-497c-9536-b3dd2756aa3e",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\menuTest.cy.js",
       "file": "cypress\\e2e\\tests\\menuTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6b6cae56-efda-4961-a5e8-6fa80aa32fbe",
+          "uuid": "43fb7e32-79ce-4b2e-8ff4-553469a349e7",
           "title": "Validation for Menu",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case for validation of Menu",
               "fullTitle": "Validation for Menu test case for validation of Menu",
               "timedOut": null,
-              "duration": 16852,
+              "duration": 14790,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "Cypress.on('uncaught:exception', (err, runnable) => {\n  return false;\n});\nlaunchinpage17.launchDemosite();\nlaunchinpage17.openWebForms(MenuValidation.LHSWidget);\naE17.openSection(MenuValidation.SectionMenu);\nmu.verifyMenuItems();",
               "err": {},
-              "uuid": "09f9b395-4192-4315-aa6c-d183bec1fb4e",
-              "parentUUID": "6b6cae56-efda-4961-a5e8-6fa80aa32fbe",
+              "uuid": "6b84a2cb-4074-4a7f-afc4-6d2be2503b52",
+              "parentUUID": "43fb7e32-79ce-4b2e-8ff4-553469a349e7",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "09f9b395-4192-4315-aa6c-d183bec1fb4e"
+            "6b84a2cb-4074-4a7f-afc4-6d2be2503b52"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 16852,
+          "duration": 14790,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

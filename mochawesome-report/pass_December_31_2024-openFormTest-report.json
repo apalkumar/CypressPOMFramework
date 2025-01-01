@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:11:08.862Z",
-    "end": "2024-12-31T11:11:44.637Z",
-    "duration": 35775,
+    "start": "2024-12-31T18:23:48.336Z",
+    "end": "2024-12-31T18:24:08.125Z",
+    "duration": 19789,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b03d9ce1-68ef-4eca-870c-497fcee9102a",
+      "uuid": "4a520986-3c3f-4b50-bda9-a6ca88efbad1",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\openFormTest.cy.js",
       "file": "cypress\\e2e\\tests\\openFormTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0f839b63-f6ef-4991-a9c2-0597ce0bf68b",
+          "uuid": "0ebea9ee-0b2d-4f0c-9e95-abac705d0243",
           "title": "Open Form and Fill the Form",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Fill up the Form1",
               "fullTitle": "Open Form and Fill the Form Fill up the Form1",
               "timedOut": null,
-              "duration": 33181,
+              "duration": 15874,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "launchinpage7.launchDemosite();\nlaunchinpage7.openWebForms(OpenFormValidation.LHSForms);\naE7.openSection(OpenFormValidation.SectionPracticeForm);\nof1.enterFirstName(PracticeFormValidation.FirstName);\nof1.enterLastName(PracticeFormValidation.LastName);\nof1.enterEmailId(PracticeFormValidation.Email);\nof1.selectMaleRadioButton();\nof1.enterMobileNumber(PracticeFormValidation.MobileNumber);\nof1.selectHobby(PracticeFormValidation.HobbeySports);\nof1.enterCurrentAddess(PracticeFormValidation.Address);\n// of1.enterDOB(PracticeFormValidation.DOB);\nof1.enterSubject(PracticeFormValidation.Subject);\n// of1.selectState(PracticeFormValidation.State);\nof1.submitForm();\nof1.validateTable();\nof1.closeModal();",
               "err": {},
-              "uuid": "847365ec-d420-4686-8a08-a66a0114ea03",
-              "parentUUID": "0f839b63-f6ef-4991-a9c2-0597ce0bf68b",
+              "uuid": "ff675947-3eae-4a37-942c-13e54e8d2b6e",
+              "parentUUID": "0ebea9ee-0b2d-4f0c-9e95-abac705d0243",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "847365ec-d420-4686-8a08-a66a0114ea03"
+            "ff675947-3eae-4a37-942c-13e54e8d2b6e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 33181,
+          "duration": 15874,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

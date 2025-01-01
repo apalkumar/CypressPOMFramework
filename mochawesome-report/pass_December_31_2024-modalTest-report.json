@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:10:28.897Z",
-    "end": "2024-12-31T11:10:46.667Z",
-    "duration": 17770,
+    "start": "2024-12-31T18:23:04.593Z",
+    "end": "2024-12-31T18:23:22.980Z",
+    "duration": 18387,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ec2c83d5-65c9-42a7-ba0a-b2137e486563",
+      "uuid": "c46c2317-1d7c-4c93-aaf8-2765919da157",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\modalTest.cy.js",
       "file": "cypress\\e2e\\tests\\modalTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "76d704aa-1eff-450c-8e22-9cc44b4a7e2e",
+          "uuid": "1451ce28-9429-49f4-9e2c-e44d5664866a",
           "title": "Validation for differnt Modal",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case for validation of different Modal",
               "fullTitle": "Validation for differnt Modal test case for validation of different Modal",
               "timedOut": null,
-              "duration": 15190,
+              "duration": 15738,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "launchinpage11.launchDemosite();\nlaunchinpage11.openWebForms(ModalValidation.LHSAlert);\naE11.openSection(ModalValidation.SectionModal);\nmo.validatesmallModal(ModalTextValidation.smallModal);\nmo.validatelargeModal(ModalTextValidation.LargeModal);",
               "err": {},
-              "uuid": "2373eba5-d0ab-4026-ab01-6b1a4b879f26",
-              "parentUUID": "76d704aa-1eff-450c-8e22-9cc44b4a7e2e",
+              "uuid": "acd2c821-6bfc-46d2-9abf-397da9f33c1b",
+              "parentUUID": "1451ce28-9429-49f4-9e2c-e44d5664866a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "2373eba5-d0ab-4026-ab01-6b1a4b879f26"
+            "acd2c821-6bfc-46d2-9abf-397da9f33c1b"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 15190,
+          "duration": 15738,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

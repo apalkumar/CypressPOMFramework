@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:06:09.953Z",
-    "end": "2024-12-31T11:06:27.765Z",
-    "duration": 17812,
+    "start": "2024-12-31T18:18:52.920Z",
+    "end": "2024-12-31T18:19:11.893Z",
+    "duration": 18973,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "749beef8-72c4-4ddf-bfe9-872fd6288d8e",
+      "uuid": "87db1793-efb4-48e1-a674-d9c6faedf788",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\datePickerTest.cy.js",
       "file": "cypress\\e2e\\tests\\datePickerTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9229138d-1f1c-4646-8a84-02d8368f0bf2",
+          "uuid": "aeccfef2-1737-447c-94b6-372f589a4eae",
           "title": "Validation for date picker",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case for validation of date picket",
               "fullTitle": "Validation for date picker test case for validation of date picket",
               "timedOut": null,
-              "duration": 15026,
+              "duration": 15431,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "launchinpage12.launchDemosite();\nlaunchinpage12.openWebForms(Widgetdata.LHSWidget);\naE12.openSection(Widgetdata.SectionDatePicker);\ndp.enterDate();",
               "err": {},
-              "uuid": "5be133b9-691a-442f-a55c-290f271c09ba",
-              "parentUUID": "9229138d-1f1c-4646-8a84-02d8368f0bf2",
+              "uuid": "e6dc8dfb-06c6-4cf0-8611-a53f8ebbf906",
+              "parentUUID": "aeccfef2-1737-447c-94b6-372f589a4eae",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5be133b9-691a-442f-a55c-290f271c09ba"
+            "e6dc8dfb-06c6-4cf0-8611-a53f8ebbf906"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 15026,
+          "duration": 15431,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:05:02.536Z",
-    "end": "2024-12-31T11:05:23.379Z",
-    "duration": 20843,
+    "start": "2024-12-31T18:17:49.715Z",
+    "end": "2024-12-31T18:18:09.087Z",
+    "duration": 19372,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "bd5e488f-7d95-4949-87ed-4130c5a46880",
+      "uuid": "e80d223e-4135-42fc-a7b2-c90e5845cf9f",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\brokenlinskTest.cy.js",
       "file": "cypress\\e2e\\tests\\brokenlinskTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c8eb422d-39fa-491a-b9f7-74b809e0a9c4",
+          "uuid": "d04bca6d-635d-4752-af24-e1459cdd7a0e",
           "title": "Find broken links on the page",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "verify navigation across the pages",
               "fullTitle": "Find broken links on the page verify navigation across the pages",
               "timedOut": null,
-              "duration": 17299,
+              "duration": 16814,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "launchinpage5.launchDemosite();\nlaunchinpage5.openWebForms(brokenLinksdata.LHSElements);\naE5.openSection(brokenLinksdata.SectionBroken);\nlet brokenLinks = 0;\nlet activeLinks = 0;\ncy.get('a').each(($link, index) => {\n  const href = $link.attr('href');\n  if (href) {\n    cy.request({\n      url: href,\n      failOnStatusCode: false\n    }).then(response => {\n      if (response.status >= 400) {\n        cy.log(`**** link  ${index + 1} is Broken Link *** ${href} `);\n        brokenLinks++;\n      } else {\n        cy.log(`**** link  ${index + 1} is Active Link *** ${href} `);\n        activeLinks++;\n      }\n    });\n  }\n}).then($links => {\n  const totalLinks = $links.length;\n  cy.log(`**** total links **** ${totalLinks}`);\n  cy.log(`**** broken links **** ${brokenLinks}`);\n  cy.log(`**** active links **** ${activeLinks}`);\n});",
               "err": {},
-              "uuid": "6e55dd9b-3ef3-45d3-94ed-cffad7bf2501",
-              "parentUUID": "c8eb422d-39fa-491a-b9f7-74b809e0a9c4",
+              "uuid": "899b6a2a-af65-4fbe-a909-cf4de0c818c3",
+              "parentUUID": "d04bca6d-635d-4752-af24-e1459cdd7a0e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6e55dd9b-3ef3-45d3-94ed-cffad7bf2501"
+            "899b6a2a-af65-4fbe-a909-cf4de0c818c3"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 17299,
+          "duration": 16814,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

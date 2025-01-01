@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:03:47.775Z",
-    "end": "2024-12-31T11:04:07.186Z",
-    "duration": 19411,
+    "start": "2024-12-31T18:16:44.867Z",
+    "end": "2024-12-31T18:17:04.141Z",
+    "duration": 19274,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "05bf87fb-7fd4-41a1-99d2-c5e1b4e8ab84",
+      "uuid": "5d2436ad-9b2c-44f1-a724-3a7e81301ce0",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\autoCompleteTest.cy.js",
       "file": "cypress\\e2e\\tests\\autoCompleteTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a018c549-82ca-469f-b459-781bf3886fdc",
+          "uuid": "dd1fb666-8cc9-4fb4-badf-b72c79ec0187",
           "title": "Validation for AutoComplete",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case for validation of AutoComplete",
               "fullTitle": "Validation for AutoComplete test case for validation of AutoComplete",
               "timedOut": null,
-              "duration": 16538,
+              "duration": 16561,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "// let textFromdiv = \"Widgets\";\nlaunchinpage8.launchDemosite();\nlaunchinpage8.openWebForms(autoCompleteValidation.LHSWidget);\naE8.openSection(autoCompleteValidation.SectionAutoComplete);\nac.enterMulticolor();\nac.enterSinglecolor();",
               "err": {},
-              "uuid": "99d2d35c-36dc-48c4-8488-bbb504a18035",
-              "parentUUID": "a018c549-82ca-469f-b459-781bf3886fdc",
+              "uuid": "0858304b-f293-4d23-bacf-f17e43871c52",
+              "parentUUID": "dd1fb666-8cc9-4fb4-badf-b72c79ec0187",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "99d2d35c-36dc-48c4-8488-bbb504a18035"
+            "0858304b-f293-4d23-bacf-f17e43871c52"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 16538,
+          "duration": 16561,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

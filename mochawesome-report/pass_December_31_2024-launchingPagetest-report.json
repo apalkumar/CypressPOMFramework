@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:06:51.506Z",
-    "end": "2024-12-31T11:07:08.957Z",
-    "duration": 17451,
+    "start": "2024-12-31T18:19:35.569Z",
+    "end": "2024-12-31T18:19:56.759Z",
+    "duration": 21190,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "831356ac-e7cd-4ab9-8944-dbf5cf194602",
+      "uuid": "5cbbef45-bb48-4a84-acc2-986ad830c611",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\launchingPagetest.cy.js",
       "file": "cypress\\e2e\\tests\\launchingPagetest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c7af8f0f-32f8-4efa-a445-1dccde32525f",
+          "uuid": "10425f48-893f-4c1e-896a-fe8cb2cebc46",
           "title": "Validate that Page loaded",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Validate Landing Page",
               "fullTitle": "Validate that Page loaded Validate Landing Page",
               "timedOut": null,
-              "duration": 14857,
+              "duration": 18667,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const cardText = [\"Elements\", \"Forms\", \"Alerts, Frame & Windows\", \"Widgets\", \"Interactions\", \"Book Store Application\"];\nlaunchinpage.launchDemosite();\nlaunchinpage.iterationinall(cardText);\nlaunchinpage.openWebForms(launchingData.LHSElements);",
               "err": {},
-              "uuid": "2f3b1936-911c-401f-aa1d-3712ab754ac1",
-              "parentUUID": "c7af8f0f-32f8-4efa-a445-1dccde32525f",
+              "uuid": "d7f9e5d9-40c9-4d7c-a06a-186219be95fd",
+              "parentUUID": "10425f48-893f-4c1e-896a-fe8cb2cebc46",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "2f3b1936-911c-401f-aa1d-3712ab754ac1"
+            "d7f9e5d9-40c9-4d7c-a06a-186219be95fd"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 14857,
+          "duration": 18667,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

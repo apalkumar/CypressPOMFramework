@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:14:17.313Z",
-    "end": "2024-12-31T11:14:34.762Z",
-    "duration": 17449,
+    "start": "2024-12-31T18:26:24.819Z",
+    "end": "2024-12-31T18:26:42.537Z",
+    "duration": 17718,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ed921750-6c2d-45a2-8fb3-b63a238253ca",
+      "uuid": "2f751e88-f273-4032-b5e5-0c907d812203",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\tabtest.cy.js",
       "file": "cypress\\e2e\\tests\\tabtest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a899092f-84e7-4fcb-b827-22b4a0c6bd46",
+          "uuid": "2945ad15-881a-4793-8219-3babba6ad080",
           "title": "Validation for Tabs",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case for validation of Tabs",
               "fullTitle": "Validation for Tabs test case for validation of Tabs",
               "timedOut": null,
-              "duration": 14836,
+              "duration": 15102,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "Cypress.on('uncaught:exception', (err, runnable) => {\n  return false;\n});\nlaunchinpage15.launchDemosite();\nlaunchinpage15.openWebForms(tabTestValidation.LHSWidget);\naE15.openSection(tabTestValidation.SectionTabs);\ntb.openWhattab(tabTestTextValidation.WhatTab);\ntb.openOrigintab(tabTestTextValidation.OriginTab);\ntb.openUsetab(tabTestTextValidation.UseTab);",
               "err": {},
-              "uuid": "a16ff7ba-6682-482e-99f7-a08815499440",
-              "parentUUID": "a899092f-84e7-4fcb-b827-22b4a0c6bd46",
+              "uuid": "3ec23322-5315-4cec-8692-c59c4df2be12",
+              "parentUUID": "2945ad15-881a-4793-8219-3babba6ad080",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a16ff7ba-6682-482e-99f7-a08815499440"
+            "3ec23322-5315-4cec-8692-c59c4df2be12"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 14836,
+          "duration": 15102,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

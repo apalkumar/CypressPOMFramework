@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-31T11:04:34.187Z",
-    "end": "2024-12-31T11:04:57.295Z",
-    "duration": 23108,
+    "start": "2024-12-31T18:17:27.370Z",
+    "end": "2024-12-31T18:17:47.066Z",
+    "duration": 19696,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "392d5646-4c35-4591-adaa-5a6000f7d6b9",
+      "uuid": "813f6ba1-0517-47a2-a853-93c905541bef",
       "title": "",
       "fullFile": "cypress\\e2e\\tests\\bookStoreRegistrationTest.cy.js",
       "file": "cypress\\e2e\\tests\\bookStoreRegistrationTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "5761de3d-db11-45ae-84db-cce532fa3fcd",
+          "uuid": "fd8355a8-85a9-449c-8aad-137da3d95e9d",
           "title": "Book Store Registration",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case for Book Store Registration",
               "fullTitle": "Book Store Registration test case for Book Store Registration",
               "timedOut": null,
-              "duration": 19035,
+              "duration": 16682,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "Cypress.on('uncaught:exception', (err, runnable) => {\n  // handle the error\n  console.error(err);\n});\nlaunchinpage8.launchDemosite();\nlaunchinpage8.openWebForms(bookStoreRegistrationValidation.LHSBook);\naE8.openSection(bookStoreRegistrationValidation.SectionBookStore);\nbsl1.clickonLoginbutton();\nbsr.clickonNewuserbutton();\nbsr.enterFirstName(bookStoreRegistrationText.FirstName);\nbsr.enterlastName(bookStoreRegistrationText.LastName);\nbsr.enterUserName(bookStoreRegistrationValidation.userName);\nbsr.enterPassword(bookStoreRegistrationValidation.passWord);\n// bsr.clickonRecaptchabutton();\nbsr.clickonRegisterbutton();",
               "err": {},
-              "uuid": "9306539c-bd77-4571-9781-21fca7bbf399",
-              "parentUUID": "5761de3d-db11-45ae-84db-cce532fa3fcd",
+              "uuid": "82283791-9255-44a2-8edd-612b7325e7b4",
+              "parentUUID": "fd8355a8-85a9-449c-8aad-137da3d95e9d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "9306539c-bd77-4571-9781-21fca7bbf399"
+            "82283791-9255-44a2-8edd-612b7325e7b4"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 19035,
+          "duration": 16682,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
