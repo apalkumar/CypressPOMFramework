@@ -4,13 +4,15 @@
   "description": "To finalize the framework",
   "main": "index.js",
   "scripts": {
-    "test:button1test1": "npx cypress run --browser chrome --spec cypress\\e2e\\tests\\buttontest.cy.js",
-    "test:button1test2": "npx cypress run --browser chrome --spec cypress\\e2e\\tests\\linkstest.cy.js"
+    "test":"node ./node_modules/cypress/bin/cypress run",
+    "debug": "npx cypress open",
+    "cy:parallel": "cypress-parallel -d cypress/e2e/tests/ -p 10 -s test -b chrome"
   },
   "author": "Anil Kumar Pal",
   "license": "ISC",
   "dependencies": {
     "cypress": "^13.17.0",
+    "cypress-parallel": "^0.1.10",
     "cypress-real-events": "^1.13.0"
   },
   "devDependencies": {
