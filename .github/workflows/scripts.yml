@@ -14,7 +14,6 @@ jobs:
                 headless: true
                 record: true
                 start: npm start
-                wait-on: 'http://localhost:3000'
                 wait-on-timeout: 60
                 spec: cypress/integration/*.spec.js
                 command: npm run test:button1test1
