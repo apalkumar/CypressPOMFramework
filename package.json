@@ -7,7 +7,7 @@
     "test":"node ./node_modules/cypress/bin/cypress run",
     "test:button1test1": "npx cypress run --browser chrome --spec cypress\\e2e\\tests\\*.cy.js",
     "debug": "npx cypress open",
-    "cy:parallel": "cypress-parallel -d cypress/e2e/tests/ -p 10 -s test -b chrome"
+    "cy:parallel": "cypress-parallel -d cypress/e2e/tests/ -p 10 -s test -b chrome --headless"
   },
   "author": "Anil Kumar Pal",
   "license": "ISC",
