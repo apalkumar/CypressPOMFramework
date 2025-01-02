@@ -9,11 +9,10 @@ jobs:
 
         - name: Run Cypress # tests   Name of the step and this is i am using
           uses: cypress-io/github-action@v6 # Action to set up Node.js,  and this is i am using
-            with:
-                browser: chrome
-                headless: true
-                record: true
-                start: npm start
-                wait-on-timeout: 60
-                spec: cypress/integration/*.spec.js
-                command: npm run test:button1test1
+          with:
+            browser: chrome
+            record: true
+            start: npm start
+            wait-on-timeout: 60
+            spec: cypress/integration/*.spec.js
+            command: npm run test:button1test1

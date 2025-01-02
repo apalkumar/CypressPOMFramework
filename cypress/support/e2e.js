@@ -16,7 +16,12 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 
+//below is for real mouse events
 import "cypress-real-events";
+
+
+//mochawesome report
+import 'cypress-mochawesome-reporter/register';
 
 //Hide XHR Request
 const app = window.top;
