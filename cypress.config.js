@@ -2,7 +2,7 @@ const { defineConfig } = require("cypress");
 experimentalRunAllSpecs: true
 
 module.exports = defineConfig({
-  video :true,
+  // video :true,
   e2e: {
     experimentalRunAllSpecs: true,
     reporter: 'cypress-mochawesome-reporter',
@@ -13,7 +13,7 @@ module.exports = defineConfig({
       timestamp: "longDate",
       embeddedScreenshots: true,
       inlineAssets: true,
-      videoOnFailOnly: true,
+      // videoOnFailOnly: true,
       saveAllAttempts: false,
     },
     setupNodeEvents(on, config) {
