@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "cypress-parallel": "^0.1.10",
-    "cypress-real-events": "^1.13.0"
+    "cypress-real-events": "^1.13.0",
+    "read-excel-file": "^5.8.6"
   },
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.5",
