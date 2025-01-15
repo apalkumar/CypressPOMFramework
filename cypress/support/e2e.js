@@ -23,6 +23,7 @@ import "cypress-real-events";
 //mochawesome report
 import 'cypress-mochawesome-reporter/register';
 
+
 //Hide XHR Request
 const app = window.top;
 if (!app.document.head.querySelector("[data-hide-command-log-request]")) {

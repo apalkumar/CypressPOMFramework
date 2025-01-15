@@ -11,7 +11,7 @@ const Alertdata = require("../../fixtures/AlertData.json");
 
 describe("Validation for differnt alerts", function () {
     it("test case for validation of different alerts", function () {
-        launchinpage8.launchDemosite();
+        launchinpage8.launchDemosite(); 
         launchinpage8.openWebForms(data.LHSAlert);
         aE8.openSection(data.SectionAlert)
         al8.alertValidationforClickMeButton(Alertdata.ClickMeFirstButtonText);

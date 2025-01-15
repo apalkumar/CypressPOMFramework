@@ -13,7 +13,6 @@
   "author": "Anil Kumar Pal",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.17.0",
     "cypress-parallel": "^0.1.10",
     "cypress-real-events": "^1.13.0"
   },
