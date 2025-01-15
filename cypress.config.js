@@ -5,6 +5,7 @@ module.exports = defineConfig({
   // video :true,
   e2e: {
     experimentalRunAllSpecs: true,
+    // experimentalStudio: true,
     reporter: 'cypress-mochawesome-reporter',
     reporterOptions: {
       charts: true,
