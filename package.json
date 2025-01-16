@@ -8,7 +8,8 @@
     "test:button1test1": "npx cypress run --browser chrome --spec cypress\\e2e\\tests\\*.cy.js",
     "test:button1test2": "npx cypress run --browser chrome --spec cypress\\e2e\\tests\\frameworkValidationtextTest.cy.js",
     "debug": "npx cypress open",
-    "cy:parallel": "cypress-parallel -t 5 -d cypress/e2e/tests/ -p 10 -s test -b chrome --headless"
+    "cy:parallel": "cypress-parallel -t 5 -d cypress/e2e/tests/ -p 10 -s test -b chrome --headless",
+    "cy:awscloud": "cypress run --record --key 5f479308-b61d-4fa7-ba2c-faef45c7a3c3"
   },
   "author": "Anil Kumar Pal",
   "license": "ISC",
